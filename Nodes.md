@@ -1,6 +1,6 @@
 # Production Monitored Nodes List
 
-This file lists the AREDN nodes being monitored in the production system. Please get in touch with AB1OC at [ab1oc@arrl.org](mailto:ab1oc@arrl.org)to request additions, deletions, or changes in this list.
+This file lists the AREDN nodes being monitored in the production system. Please get in touch with AB1OC at [ab1oc@arrl.org](mailto:ab1oc@arrl.org) to request additions, deletions, or changes in this list.
 
 ## Nodes Currently Being Monitored
 
