@@ -11,7 +11,7 @@ Please submit Issues and suggest feature enhancements via the standard GitHub Pr
 
 ### Prerequisites
 
-Our dashboard development environment is based on [Docker Desktop](https://docs.docker.com/desktop/) and [Portainer](https://github.com/portainer/portainer). You should also set up [Watchtower](https://github.com/nicholas-fedor/watchtower)to check for and flag updates to the Docker images in your development environment. This will ensure that you are using the latest version of the container images.
+Our dashboard development environment is based on [Docker Desktop](https://docs.docker.com/desktop/) and [Portainer](https://github.com/portainer/portainer). You should also set up [Watchtower](https://github.com/nicholas-fedor/watchtower)to check for and flag updates to the container images in your development environment. This will ensure that you are using the latest images during development and testing.
 
 You will also need access to the New England production Prometheus Time Series Database (TSDB). Please get in touch with AB1OC at [ab1oc@arrl.org](mailto:ab1oc@arrl.org) for access.
 
