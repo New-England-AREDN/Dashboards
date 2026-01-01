@@ -17,8 +17,8 @@ You will also need access to the New England production Prometheus Time Series D
 
 You can follow these steps to set up the Grafana dashboard development environment:
 
-1. [Install Docker Desktop](https://docs.docker.com/desktop/) on you development machine. If you are doing development on a Windows machine, you will also need to install Windows Subsystem for Linus (WSL).
-2. Clone this repo to create a local ***Dashboards*** development file structure.
+1. [Install Docker Desktop](https://docs.docker.com/desktop/) on you development machine. If you are doing development on a Windows machine, you will also need to install Windows Subsystem for Linus (WSL). Run Docker Desktop when the installation is complete.
+2. Clone this repo using your terminal to create a local ***Dashboards*** development file structure.
    - ```
      git clone https://github.com/New-England-AREDN/Dashboards
      ```
@@ -33,7 +33,7 @@ You can follow these steps to set up the Grafana dashboard development environme
     cd ../Tools
     docker compose -f portainer-compose.yml -p portainer-ce up -d
     ```
-5. Start Portainer via https://localhostL9443.
+5. Start Portainer via [https://localhost:9443](https://localhost:9443). Set you password and login to to Portainer.
 6. Create a ***Stack*** in Portainer for your Grafana development environment by uploading the provided ***Dashboards/dev/docker-compose.yml*** file and load your ***Dashboard/dev/.env** file to create the environment variables for your stack.
 7. Run your Stack to start Grafana. You will be running the Version 1 RF-Dashboard using data from the New England production Prometheus TSDB. You can access Grafana and the current dashboard(s) via [http://localhost:3000](http://localhost:3000).
 8. Create and edit an email notification setup for Watchtower:
