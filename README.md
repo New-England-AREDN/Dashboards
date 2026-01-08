@@ -1,7 +1,7 @@
 # Dashboards
 This repository contains Grafana and other source files for New England AREDN Grafana Dashboards. It can be used for New England AREDN dashboard development. New England AREDN dashboards are hosted in production at AB1OC. Prometheus currently provides backend Time Series Database (TSDB) support for the New England AREDN network. Please get in touch with AB1OC at [ab1oc@arrl.org](mailto:ab1oc@arrl.org) if you'd like to have your AREDN RF Links, Routers, or Services added to the dashboards.
 
-You can view the Version 1 production RF Link Dashboard at [https://mvara-dash.n1mva.org](https://mvara-dash.n1mva.org).
+You can view the Version 1 production RF Link Dashboard at [https://rfperf.ne-aredn.net](https://rfperf.ne-aredn.net).
 
 ##Network Configuration Data
 
