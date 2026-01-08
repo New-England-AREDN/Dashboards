@@ -1,11 +1,19 @@
 # Dashboards
-This repository contains Grafana and other source files for New England AREDN Grafana Dashboards. It can be used for New England AREDN RF dashboard development. New England AREDN dashboards are hosted in production at AB1OC. Prometheus currently provides backend Time Series Database (TSDB) support for the New England AREDN network. Please get in touch with AB1OC at [ab1oc@arrl.org](mailto:ab1oc@arrl.org) if you'd like to have your AREDN RF Links, Routers, or Services added to the dashboards.
+This repository contains Grafana and other source files for New England AREDN Grafana Dashboards. It can be used for New England AREDN dashboard development. New England AREDN dashboards are hosted in production at AB1OC. Prometheus currently provides backend Time Series Database (TSDB) support for the New England AREDN network. Please get in touch with AB1OC at [ab1oc@arrl.org](mailto:ab1oc@arrl.org) if you'd like to have your AREDN RF Links, Routers, or Services added to the dashboards.
 
 You can view the Version 1 production RF Link Dashboard at [https://mvara-dash.n1mva.org](https://mvara-dash.n1mva.org).
 
+##Network Configuration Data
+
+We also provide JSON configuration data for all of the nodes on the New England AREDN network. This data is accessible via a REST API and is automatically updated when the network configuration changes. The [Configuration and Metrics Data](Configuration-Metrics.md) file in this repository explains the data format and how to access it.
+
+## Accessing the Node Metrics and Configuration Data
+
+The AREDN Node and other metrics, and the Network Configuration JSON data are accessible via the web. Please contact AB1OC at [ab1oc@arrl.org](mailto:ab1oc@arrl.org) if you'd like to contribute to the New England AREDN dashboard and monitoring development effort.
+
 ## Problems and Enhancements
 
-Please submit Issues and suggest feature enhancements via the standard GitHub Problem Report (PR) mechanism. A Template is provided. Please limit the *Issues* you post to topics directly related to the Dashboards in this repo.
+Please submit Issues and suggest feature enhancements via the standard GitHub Issue Tracker. A Template is provided. Please limit the *Issues* you post to topics directly related to the Dashboards in this repo.
 
 ## Setting Up a Dashboard Development Environment
 
